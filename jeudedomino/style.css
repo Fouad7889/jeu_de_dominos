@@ -1,0 +1,261 @@
+/*.body {
+    margin: 10px;
+     height: 1568px;
+    width: 1224 px;
+    
+
+} 
+
+.menu {
+    
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    display: grid;    
+    grid-template-columns: 42px 77px 145px 145px 38px 676px 59px 42px;
+    grid-template-rows: 53px 64px 134px 31px 208px 208px 208px 83px 504px 22px 53px;
+    grid-template-areas: 
+      ". . . . . . . ."
+      ". . . . . . . ."
+      ". . log . . . . ."
+      ". . . . . . . ."
+      ". . rando rando . . . ."
+      ". . pilotes pilotes . . . ."
+      ". . alpinistes alpinistes . . . ."
+      ". . . . . . . ."
+      ". . footer footer footer footer . ."
+      ". . . . . . . ."
+      ". . . . . . . ." 
+    
+}
+
+.log {
+    background-color: purple;
+    cursor: pointer;
+    
+    grid-area: log;
+}
+
+.nav {
+      background-color: green;
+      grid-area: nav 
+
+}
+
+.nav li {
+    list-style-type: none;
+    background-color: #316F3F;
+    width: 100px;
+    height: 100px;
+}
+
+.nav button {
+    cursor: pointer;
+    background-color: #13CE66;$
+}
+.rando {
+    grid-area: rando;
+    height: 30px;
+    width: 30px;
+    border: 1px dashed black;
+    margin: 1px;
+
+}
+.pilotes {
+    grid-area: pilotes;
+    height: 30px;
+    width: 30px;
+    border: 1px solid grey;
+    margin: 1px;
+
+
+}
+.alpinistes {
+    grid-area: alpinistes;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+}
+.article {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #13CE66;
+}
+.phototitre {
+   border: 1px solid black;
+   width: 426px;
+   padding: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   background-color: #FFFFFF;
+}
+.titre {
+    text-align: center;
+    border: 1px solide black;
+    background-color: rgb(64, 64, 211);
+
+}
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.conteneur {
+    width: 676px;
+    height: 653px;
+   
+
+}
+
+.footer {
+    height: 200px;
+    border: 1px solid black;
+    background-color: #13CE66;
+    grid-area: footer;
+   
+}
+.para2 {
+    text-align: center;
+}
+
+.img2 {
+    float: left;
+}*/
+
+
+
+/*.conteneur{
+    display: flex;
+    seul display:flex suffit à faire basculer le block nav en ligne avec le bloc article.
+    Flex direction ne donne rien???? A voir comment ça réagit après.
+}
+.header {
+    padding:10px;
+    margin: 10px;
+}
+
+.log {
+    background-color: #9E2084;
+    border: 5px solid #CCB3A6;
+    width: 145px;
+    height: 134px;  
+       
+}
+
+.li1 {
+    height: 208px;
+    width: 290px;
+    background-color: #316F3F;
+    border: 10px solid #FFFFFF;
+    
+}
+.li2 {
+    height: 208px;
+    width: 290px;
+    background-color: #316F3F;
+    border: 10px solid #CCB3A6;
+}
+.button {
+    height: 99px;
+    width: 69px;
+    background-color: #13CE66;
+    position: relative;
+    left: 250px;
+    color: #FAFCFD;
+    
+}
+.li3 {
+    height: 208px;
+    width: 290px;
+    background-color: #316F3F;
+    border: 10px solid #FFFFFF;
+
+}
+
+.article {
+    background-color: #13CE66;
+    padding:10px;
+    margin: 10px;
+    height: 653px;
+    width: 676px;
+    display: flex;
+
+    
+
+}
+.phototitre {
+    background-color: #FFFFFF;
+    width: 426px;
+    height: 265px;
+margin: auto;
+}
+.img1 {
+    height: 174px;
+    width: 232px;
+    
+    
+    
+    
+}
+.titre {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #20759E;
+}
+.para1 {
+    width: 567px;
+    height: 36.97px;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+.footer {
+    background-color: #13CE66;
+    border: 5px solid #CCB3A6;
+    padding:10px;
+    margin: 10px;
+    height: 504px;
+    width: 1015px;
+
+}
+.photoGeo {
+    float: left;
+    border: 10px solid #CCB3A6;
+    width: 385.44px;
+    height: 292px;
+    position: relative;
+    top: -40px; left: -33px;
+}
+.Informations {
+   color: #47525E;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 62px;
+  width: 192px;
+  text-align: left;
+}*/
+
+
+.nav {
+    background-color: blue;
+
+}
+
+.article {
+    background-color: green;
+}
+.footer{
+    background-color: brown;
+}
+
+@media screen and (min-width: 900px) {
+    
+}
